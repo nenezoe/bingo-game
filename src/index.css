@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-red {
+  background-color: #F6596C !important;
+}
+
+.yellow-border {
+  border: 3px solid #F6596C;
+  border-radius: 15px !important;
+}
+
+.inner-border {
+  border: 1px solid #8C242D;
+}
+
+.bgdds {
+  background-image: linear-gradient(to top, #F6596C 0%, #8C242D 100%);
+  min-height: 100vh;
+}
+
+
+.bg-wne {
+  background-color: #8C242D !important;
+}
+
+
+
+.bg-deepref {
+  background-color: #F6596C !important;
+}
+
+.active-card>div {
+  background-color: #AA323E !important;
+  text-decoration: line-through;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.table-wrapper {
+
+  display: grid;
+  grid-template-columns: repeat(5, 9.1rem);
+  grid-auto-rows: 6.7rem;
+  overflow: auto;
+  margin: 0 !important;
+
+}
+#card-12  div {
+  background-color: rgb(196, 186, 129) !important;
+  text-decoration: none !important;
+}
+.mark {
+  height: 100%;
+  font-size: .90rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.win-card >div {
+  background-color: #F6E6A8 !important;
+  text-decoration: none;
+  color: #203040;
+  transition: color 2s;
+}
+.score-text {
+  /* top: 0;
+  bottom: 0; */
+  align-self: center;
+  margin: auto;
+  right: 10px;
+}
+p {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .table-wrapper {
+
+
+    grid-template-columns: repeat(5, 7.1rem);
+    grid-auto-rows: 7rem;
+
+  }
+
+  .mark {
+    font-size: .80rem;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .table-wrapper {
+
+    grid-template-columns: repeat(5, 5.9rem);
+    grid-auto-rows: 6.1rem;
+
+  }
+
+  .mark {
+    font-size: .70rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+
+  .table-wrapper {
+
+    grid-template-columns: repeat(5, 5.0rem);
+    grid-auto-rows: 5.9rem;
+
+  }
+
+  .mark {
+    font-size: .63rem;
+  }
+  h3 {
+    font-size: 1.1rem !important;
+  }
+  p {
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+  .table-wrapper {
+
+    display: grid;
+    grid-template-columns: repeat(5, 4.0rem);
+    grid-auto-rows: 5.3rem;
+    overflow: auto;
+    margin: 0 !important;
+
+  }
+
+  .mark {
+    height: 100%;
+    font-size: .60rem;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .inner-border {
+    border: none;
+  }
+}
+
+.board-wrapper {
+  width: fit-content;
+}
+
+.hfgfgf {
+  grid-area: auto;
+}
